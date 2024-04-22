@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <p>Search or type in * for all </p>
+ <audio id='song' src='' ></audio>
+ <input id='search' type='search'>
+ <button onclick='searchQ()'>Search</button>
+ <div id='list'></div>
+ <button onclick="document.getElementById('song').play()">Play</button>
+ <button onclick="document.getElementById('song').pause()">Pause</button>
+ <p> </p>
+ <a>Volume: </a><input type="range" id="vol" name="slider" min="0" max="100" value="50">
+ 
+ <p> </p>
+ <p style='font-size: 80%'>All of the music on this website belongs to SunoAI, <a href='https://suno.com/'>suno.com</a></p>
+ <script src="script.js"></script>
+</body>
+
+</html>
